@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 200px; 
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+}
+
+a{
+    cursor: pointer;
 }
 
 h1 {
@@ -16,41 +25,61 @@ h1 {
 
 .indexHeader {
     display: flex;
-    padding: 20px;
-    align-items: center;
+    flex-direction: column;
     width: 100%;
-    height: 8rem;
-    background-color: dodgerblue;
-    letter-spacing: 30px;
-    font-size: 25px;
-    font-weight: bold;
-    gap: 100px;
-    color: whitesmoke;
-}
-
-.headerImg {
-    height: 100px;
-    width: 100px;
-}
-
-.indexNav {
-    display: flex;
+    height: 100vh;
+    background-image: url(images/Visbyimg.jpg);
+    background-size: cover;
+    /* gör att bilden täcker hela ytan */
+    background-repeat: no-repeat;
+    /* hindrar att bilden upprepas */
+    background-position: center;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    width: 25rem;
-    height: 50px;
+    scroll-padding-top: 700;
 }
 
-.indexNav button {
-    border: 3px solid red;
-    width: 6rem;
-    height: 80%;
+.landsMarke{
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+}
+
+.indexHeader h1{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    color: dodgerblue;
+    margin-bottom: 10px;
+}
+
+.indexNav{
+    display: flex;
+    width: 40rem;
+    height: 5rem;
+    justify-content: space-around;
+    padding: 1rem;
     background-color: transparent;
 }
 
-.indexNav button:hover {
-    cursor: pointer;
-    background-color: lightcoral;
+.navButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 1rem;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.dropDownArrow{
+    display: flex;
+    margin-top: auto;
+    height: 15rem;
+    width: 15rem;
+    transition: 2s ease;
 }
 
 /*Main*/
@@ -191,21 +220,21 @@ h1 {
 }
 
 .middleIcon {
-  display: flex;
-  justify-content: center;
-  grid-row: 2;
-  grid-column: 2;
-  align-self: center;
-  width: 15rem;
-  height: 13rem;
-  transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    grid-row: 2;
+    grid-column: 2;
+    align-self: center;
+    width: 15rem;
+    height: 13rem;
+    transition: transform 0.3s ease;
 }
 
-.radiusAktivitet:hover ~ .middleIcon,
-.radiusNatur:hover ~ .middleIcon,
-.radiusPolitik:hover ~ .middleIcon,
-.radiusSee:hover ~ .middleIcon {
-  transform: rotate(180deg);
+.radiusAktivitet:hover~.middleIcon,
+.radiusNatur:hover~.middleIcon,
+.radiusPolitik:hover~.middleIcon,
+.radiusSee:hover~.middleIcon {
+    transform: rotate(180deg);
 }
 
 /* Albin skriv under detta*/
