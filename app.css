@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 200px; 
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
+}
+
+a{
+    cursor: pointer;
 }
 
 h1 {
@@ -16,25 +25,44 @@ h1 {
 
 .indexHeader {
     display: flex;
-    padding: 20px;
-    align-items: center;
+    flex-direction: column;
     width: 100%;
-    height: 8rem;
-    background-color: dodgerblue;
-    letter-spacing: 30px;
-    font-size: 25px;
-    font-weight: bold;
-    gap: 100px;
-    color: whitesmoke;
+    height: 100vh;
+    background-image: url(images/Visbyimg.jpg);
+    background-size: cover;
+    /* gör att bilden täcker hela ytan */
+    background-repeat: no-repeat;
+    /* hindrar att bilden upprepas */
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    scroll-padding-top: 700;
 }
 
+<<<<<<< HEAD
 .headerImg {
     height: 100px;
     width: 100px;
+=======
+.landsMarke{
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+}
+
+.indexHeader h1{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    color: dodgerblue;
+    margin-bottom: 10px;
+>>>>>>> indexnav
 }
 
 .indexNav {
     display: flex;
+<<<<<<< HEAD
     align-items: center;
     justify-content: space-between;
     width: 25rem;
@@ -51,6 +79,32 @@ h1 {
 .indexNav button:hover {
     cursor: pointer;
     background-color: lightcoral;
+=======
+    width: 40rem;
+    height: 5rem;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: transparent;
+}
+
+.navButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 1rem;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+}
+
+.dropDownArrow{
+    display: flex;
+    margin-top: auto;
+    height: 15rem;
+    width: 15rem;
+    transition: 2s ease;
+>>>>>>> indexnav
 }
 
 /*Main*/
@@ -191,6 +245,7 @@ h1 {
 }
 
 .middleIcon {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   grid-row: 2;
@@ -206,6 +261,23 @@ h1 {
 .radiusPolitik:hover ~ .middleIcon,
 .radiusSee:hover ~ .middleIcon {
   transform: rotate(180deg);
+=======
+    display: flex;
+    justify-content: center;
+    grid-row: 2;
+    grid-column: 2;
+    align-self: center;
+    width: 15rem;
+    height: 13rem;
+    transition: transform 0.3s ease;
+}
+
+.radiusAktivitet:hover~.middleIcon,
+.radiusNatur:hover~.middleIcon,
+.radiusPolitik:hover~.middleIcon,
+.radiusSee:hover~.middleIcon {
+    transform: rotate(180deg);
+>>>>>>> indexnav
 }
 
 /* Albin skriv under detta*/
