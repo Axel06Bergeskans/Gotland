@@ -33,4 +33,23 @@ h1 {
     width: 100px;
 }
 
+.indexNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    height: 50px;
+}
+
+.indexNav button{
+    border: 3px solid red;
+    width: 6rem;
+    height: 80%;
+    background-color: transparent;
+}
+
+.indexNav button:hover{
+    cursor: pointer;
+    background-color: lightcoral;
+}
 /* Albin skriv under detta*/
