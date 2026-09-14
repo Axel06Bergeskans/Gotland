@@ -91,8 +91,8 @@ h1 {
   display: grid;
   margin-top: 5rem;
   justify-content: center;
-  grid-template-columns: auto, auto, auto /* mittenkolumnen är dubbelt så bred */
-  grid-template-rows: auto auto auto;
+  grid-template-columns: auto, auto, auto; /* mittenkolumnen är dubbelt så bred */
+  grid-template-rows: auto, auto, auto;
   width: 100%;
   height: 100vh;
 }
