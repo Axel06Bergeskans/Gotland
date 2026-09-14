@@ -1,0 +1,23 @@
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.indexHeader{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    background-color: darkgreen;
+}
+
+.headerImg{
+    height: 100px;
+    width: 100px;
+}
