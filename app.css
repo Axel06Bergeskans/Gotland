@@ -5,15 +5,15 @@
 }
 
 html {
-  scroll-padding-top: 200px; 
-  scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
 }
 
-a{
+a {
     cursor: pointer;
 }
 
@@ -39,13 +39,13 @@ h1 {
     scroll-padding-top: 700;
 }
 
-.landsMarke{
+.landsMarke {
     display: flex;
     width: 10rem;
     height: 10rem;
 }
 
-.indexHeader h1{
+.indexHeader h1 {
     width: 100%;
     text-align: center;
     color: black;
@@ -63,7 +63,7 @@ h1 {
     background-color: transparent;
 }
 
-.navButton{
+.navButton {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,7 +74,7 @@ h1 {
     border: none;
 }
 
-.dropDownArrow{
+.dropDownArrow {
     display: flex;
     height: 15rem;
     width: 15rem;
@@ -260,7 +260,7 @@ h1 {
 
 /*Sevardigheter*/
 
-.sevardigheterHeader{
+.sevardigheterHeader {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -269,20 +269,26 @@ h1 {
     color: dodgerblue;
 }
 
-.sevardigheterHeader h1{
+.sevardigheterHeader h1 {
     margin: 0;
     width: 100%;
     font-size: 70px;
 }
 
-.sevardigheterHeader h2{
+.sevardigheterHeader h2 {
     width: 100%;
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
 }
 
-.arrowBack{
+.sevardigheterHeader hr {
+    height: 8px;
+    width: 10rem;
+    background-color: dodgerblue;
+}
+
+.arrowBack {
     position: sticky;
     top: 1rem;
     left: 1rem;
@@ -290,14 +296,15 @@ h1 {
     transition: 0.2s;
 }
 
-.arrowBack:hover{
+.arrowBack:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
 
-.sevardigheterMain{
-    margin-top: 2rem;
+.sevardigheterMain {
     display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -305,22 +312,26 @@ h1 {
 }
 
 .whyGotland {
-  display: grid;
-  grid-template-columns: 50% 50%; /* exakt 50/50 */
-  width: 70rem;
-  height: auto;
-  background-color: aliceblue;
-  margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* exakt 50/50 */
+    width: 70rem;
+    height: auto;
+    background-color: aliceblue;
+    margin-top: 2rem;
+    border-top: 5px solid dodgerblue;
+    border-bottom: 5px solid dodgerblue;
 }
 
 .whyGotland img {
-  grid-column: 1 / 2; /* placerar bilden i första kolumnen */
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+    grid-column: 1 / 2;
+    /* placerar bilden i första kolumnen */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
-.blockArticle{
+.blockArticle {
     display: flex;
     flex-direction: column;
     padding: 3rem;
@@ -330,23 +341,29 @@ h1 {
     font-size: 20px;
 }
 
-.blockLabel{
+.blockLabel {
     font-size: 3rem;
     font-weight: bold;
 }
 
 .sevardigheterBlocks {
-  display: grid;
-  grid-template-columns: 50% 50%; /* exakt 50/50 */
-  width: 70rem;
-  height: auto; /* ge containern en fast höjd */
-  background-color: aliceblue;
-  margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* exakt 50/50 */
+    width: 85rem;
+    height: 42rem;
+    /* ge containern en fast höjd */
+    background-color: aliceblue;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    border-top: 5px solid dodgerblue;
+    border-bottom: 5px solid dodgerblue;
 }
 
 .sevardigheterBlocks img {
-  width: 100%;
-  height: 30rem;
-  object-fit: cover; /* fyller hela sin kolumn */
-  display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* fyller hela sin kolumn */
+    display: block;
 }
