@@ -39,11 +39,6 @@ h1 {
     scroll-padding-top: 700;
 }
 
-<<<<<<< HEAD
-.headerImg {
-    height: 100px;
-    width: 100px;
-=======
 .landsMarke{
     display: flex;
     width: 10rem;
@@ -57,29 +52,10 @@ h1 {
     font-size: 100px;
     color: dodgerblue;
     margin-bottom: 10px;
->>>>>>> indexnav
 }
 
 .indexNav {
     display: flex;
-<<<<<<< HEAD
-    align-items: center;
-    justify-content: space-between;
-    width: 25rem;
-    height: 50px;
-}
-
-.indexNav button {
-    border: 3px solid red;
-    width: 6rem;
-    height: 80%;
-    background-color: transparent;
-}
-
-.indexNav button:hover {
-    cursor: pointer;
-    background-color: lightcoral;
-=======
     width: 40rem;
     height: 5rem;
     justify-content: space-around;
@@ -104,7 +80,6 @@ h1 {
     height: 15rem;
     width: 15rem;
     transition: 2s ease;
->>>>>>> indexnav
 }
 
 /*Main*/
@@ -245,23 +220,6 @@ h1 {
 }
 
 .middleIcon {
-<<<<<<< HEAD
-  display: flex;
-  justify-content: center;
-  grid-row: 2;
-  grid-column: 2;
-  align-self: center;
-  width: 15rem;
-  height: 13rem;
-  transition: transform 0.3s ease;
-}
-
-.radiusAktivitet:hover ~ .middleIcon,
-.radiusNatur:hover ~ .middleIcon,
-.radiusPolitik:hover ~ .middleIcon,
-.radiusSee:hover ~ .middleIcon {
-  transform: rotate(180deg);
-=======
     display: flex;
     justify-content: center;
     grid-row: 2;
@@ -277,7 +235,6 @@ h1 {
 .radiusPolitik:hover~.middleIcon,
 .radiusSee:hover~.middleIcon {
     transform: rotate(180deg);
->>>>>>> indexnav
 }
 
 /* Albin skriv under detta*/
