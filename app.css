@@ -238,3 +238,13 @@ h1 {
 }
 
 /* Albin skriv under detta*/
+
+.kontaktFormular {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 50%;
+    margin-left: 25%;
+}
