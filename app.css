@@ -239,6 +239,14 @@ h1 {
 
 /* Albin skriv under detta*/
 
+.formularContainer {
+    /* Samma backgrundsbild från index så det fortfarande känns som samma sida */
+    background-image: url(images/Visbyimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+
 .kontaktFormular {
     display: flex;
     flex-direction: column;
@@ -247,4 +255,6 @@ h1 {
     gap: 1rem;
     max-width: 50%;
     margin-left: 25%;
+    font-size: 1.5rem;
+    font-family: "Changa One", sans-serif;
 }
