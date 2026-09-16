@@ -271,14 +271,10 @@ h1 {
 
 /*Politik*/
 
-.politik{
-    width: 100%;
-    height: 100vh;
-    background-image: url(images/29b40c203fa3038aa4e859f53eaae40ad8-19-gavel-courtroom.1x.rsocial.w1200.webp);
-    background-size: cover;
-    filter: blur(3px);
-    overflow: hidden;
-    border: solid black;
+.politikBlock{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
 }
 
 /*Footer*/
