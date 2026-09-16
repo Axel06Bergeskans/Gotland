@@ -375,3 +375,62 @@ h1 {
     /* fyller hela sin kolumn */
     display: block;
 }
+
+/* "Praktiskt" styles */
+
+.praktisktHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.praktisktHeader h1{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.praktisktHeader nav{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.praktisktHeader a{
+    padding: 1rem;
+    text-decoration: none;
+    color:aliceblue;
+    background-color: dodgerblue;
+}
+
+.praktisktCard {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 5rem;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: gainsboro;
+}
+
+.praktisktCardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.praktisktCardContent h2{
+    font-size: 3rem;
+}
+
+.praktisktCardContent p{
+    font-size: 1rem;
+    width: 80%;
+}
+
+.praktisktCard img {
+    width: 35rem;
+    height: auto;
+    border-radius: 5rem 0 0 5rem;
+}
