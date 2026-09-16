@@ -75,6 +75,13 @@ h1 {
     text-decoration: none;
 }
 
+/* Försök på hover effekt
+.navButton :hover{
+    transition: 1s ease;
+    background-color: blue;
+}
+*/
+
 .dropDownArrow {
     display: flex;
     height: 15rem;
