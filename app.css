@@ -273,6 +273,7 @@ h1 {
 
 .politikBlock {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 50% 50%;
     width: 100%;
 }
@@ -286,6 +287,11 @@ h1 {
 
 .politikBlock .blockArticle{
     padding-bottom: 0;
+=======
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    overflow: hidden;
+>>>>>>> 8732cdbb6cc0d0f7ac6f9c7ac1b454ef365c1d62
 }
 
 /*Footer*/
@@ -342,6 +348,13 @@ h1 {
     margin-left: 25%;
     font-size: 1.5rem;
     font-family: "Changa One", sans-serif;
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.kontaktFormular input{
+    height: 2rem;
 }
 
 /*Sevardigheter*/
