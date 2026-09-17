@@ -271,15 +271,26 @@ h1 {
 
 /*Politik*/
 
-.politikBlock{
+.politikBlock {
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 80%;
+    width: 100%;
+}
+
+.politikBlock img {
+    grid-column: 2 / 2;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.politikBlock .blockArticle{
+    padding-bottom: 0;
 }
 
 /*Footer*/
 
-.indexFooter{
+.indexFooter {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,7 +300,7 @@ h1 {
     background-color: dodgerblue;
 }
 
-.footerNav{
+.footerNav {
     color: black;
     display: flex;
     height: 5rem;
@@ -452,21 +463,21 @@ h1 {
     gap: 1rem;
 }
 
-.praktisktHeader h1{
+.praktisktHeader h1 {
     font-size: 4rem;
     margin: 0;
 }
 
-.praktisktHeader nav{
+.praktisktHeader nav {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
 
-.praktisktHeader a{
+.praktisktHeader a {
     padding: 1rem;
     text-decoration: none;
-    color:aliceblue;
+    color: aliceblue;
     background-color: dodgerblue;
 }
 
@@ -481,17 +492,17 @@ h1 {
     background-color: gainsboro;
 }
 
-.praktisktCardContent{
+.praktisktCardContent {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.praktisktCardContent h2{
+.praktisktCardContent h2 {
     font-size: 3rem;
 }
 
-.praktisktCardContent p{
+.praktisktCardContent p {
     font-size: 1rem;
     width: 80%;
 }
