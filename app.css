@@ -331,6 +331,13 @@ h1 {
     margin-left: 25%;
     font-size: 1.5rem;
     font-family: "Changa One", sans-serif;
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+.kontaktFormular input{
+    height: 2rem;
 }
 
 /*Sevardigheter*/
