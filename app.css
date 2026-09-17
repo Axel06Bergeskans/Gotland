@@ -273,8 +273,9 @@ h1 {
 
 .politikBlock{
     display: grid;
-    grid-template-columns: 50% 50%;
-    width: 80%;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    overflow: hidden;
 }
 
 /*Footer*/
